@@ -1,0 +1,13 @@
+/* liberatory-map-starter/src/index.css */
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #000;
+  color: #fff;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
