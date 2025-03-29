@@ -16,7 +16,7 @@ Liberatory version:`;
       method: "POST",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`, // 👈 Vercel injects this
+        Authorization: `Bearer ${process.env.OPENAI_API_KEY}`,
       },
       body: JSON.stringify({
         model: "gpt-3.5-turbo",
@@ -37,5 +37,3 @@ Liberatory version:`;
     res.status(500).json({ error: "Conversion failed" });
   }
 }
-
-  
