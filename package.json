@@ -3,7 +3,7 @@
   "homepage": "https://zaynstructure.github.io/liberation-read",
   "version": "1.0.0",
   "engines": {
-    "node": "16.x"
+    "node": "18.x"
   },
   "private": true,
   "dependencies": {
