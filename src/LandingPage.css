@@ -1,0 +1,70 @@
+/* src/LandingPage.css */
+
+.landing-container {
+    height: 100vh;
+    background-color: #0f0f0f;
+    color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Georgia', serif;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .landing-title {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+  }
+  
+  .landing-subtext {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+  }
+  
+  .landing-input {
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .suggestions {
+    margin-bottom: 2rem;
+  }
+  
+  .chip {
+    background-color: #222;
+    color: #eee;
+    border: none;
+    margin: 0.25rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.3s;
+  }
+  .chip:hover {
+    background-color: #444;
+  }
+  
+  .start-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #8a2be2;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .start-button:hover {
+    background-color: #a04eff;
+  }
+  
